@@ -7,3 +7,11 @@ interface BoardState {
     isLoading: boolean;
     error: string | null;
 }
+
+const initialState: BoardState = {
+    boards: [],
+    currentBoard: null,
+    isLoading: false,
+    error: null
+};
+
