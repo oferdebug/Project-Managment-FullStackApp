@@ -18,6 +18,9 @@ node_modules/
 .cache/
 *.log
 npm-debug.log*
+.cache/mozilla/
+**/cache2/
+**/cache/
 
 # IDE
 .vscode/
